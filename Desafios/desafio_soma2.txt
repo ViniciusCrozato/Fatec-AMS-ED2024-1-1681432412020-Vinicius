@@ -1,0 +1,12 @@
+#include <stdio.h>
+int soma(n1,n2){
+  return n1+n2;
+}
+
+int main(void) {
+  int N1 =4;
+  int N2 =5;
+
+  printf("o resultado da soma é: %d",soma(N1,N2));
+  return 0;
+}
