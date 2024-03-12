@@ -1,0 +1,35 @@
+#include <stdio.h>
+#include <stdlib.h>
+float desconto(float prod, float desc)
+{
+    float desconto;
+
+  float *ptr1;
+  float *ptr2;
+
+  ptr1 = &prod;
+  ptr2 = &desc;
+
+    desconto = *ptr1 - (*ptr2*(*ptr1/100));
+
+    return desconto;
+}
+int main(void)
+{
+
+  float P, D;
+
+
+ 
+  printf("\nDigite o valor do produto: ");
+  scanf("%f", &P);
+  
+  printf("Digite a porcentagem do desconto: ");
+  scanf("%f", &D);
+
+  printf("O valor do produto é %f \n", P);
+  printf("A porcentagem do desconto é %f \n", D);
+  printf("O valor do produto com desconto é de %f", desconto(P, D));
+  
+  return 0;
+}
