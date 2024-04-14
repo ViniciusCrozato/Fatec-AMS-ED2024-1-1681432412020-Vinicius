@@ -1,3 +1,11 @@
+/*-------------------------------------------------------*/
+/*     FATEC-São Caetano do Sul Estrutura de Dados       */
+/*             Avaliação N1 - Parte II                   */
+/*       Objetivo: Controlar Envio de Produtos           */
+/*                                                       */
+/*           Autores: Vicente e Vinicius                 */
+/*                                        Data:12/04/2024*/
+/*-------------------------------------------------------*/
 #include "inserir_pct.h"
 #include "imprime_pct.h"
 #include "alterar_sts.h"
