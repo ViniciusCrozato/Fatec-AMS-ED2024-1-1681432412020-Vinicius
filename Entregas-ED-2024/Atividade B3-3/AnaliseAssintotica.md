@@ -29,3 +29,12 @@ A simplificação para Big O do tempo de execução do algoritmo Busca Linear em
 ### Busca Binária
 
 A simplificação para o Big O do tempo de execução do algoritmo Busca Binária será **_O(log n)_**, já que seu termo mais complexo é a divisão do array em 2 para que chegue ao resultado.
+
+## Gráfico do Big O
+
+### Busca Linear
+![Gráfico Busca Linear](graficoBuscaLinear.png)
+### Busca Linear em Ordem
+![Gráfico Busca Linear em Ordem](graficoBuscaLinearOrdem.png)
+### Busca Binária
+![Gráfico Busca Binária](graficoBuscaBinaria.png)
