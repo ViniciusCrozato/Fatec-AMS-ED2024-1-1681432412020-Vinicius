@@ -1,0 +1,1 @@
+O ponto observado, que pode ser melhorado, é que caso o array já esteja ordenado, o código ainda assim vai rodar todo o loop da função BubbleSort, dessa forma, pode-se fazer uma melhoria para que ele identifique caso não haja trocas entre os números, assim indicando que o array está ordenado e sem precisar passar pelo loop interno desnecessariamente.
